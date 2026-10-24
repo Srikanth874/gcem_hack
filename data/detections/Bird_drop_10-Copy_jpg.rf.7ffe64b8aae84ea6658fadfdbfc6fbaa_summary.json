@@ -1,0 +1,152 @@
+{
+  "image_file": "Bird_drop_10-Copy_jpg.rf.7ffe64b8aae84ea6658fadfdbfc6fbaa.jpg",
+  "total_defects": 5,
+  "total_defects_found": 5,
+  "defect_types": {
+    "Bird Drop": 5
+  },
+  "summary": {
+    "total_defects": 5,
+    "total_defects_found": 5,
+    "defect_types": {
+      "Bird Drop": 5
+    }
+  },
+  "detections": [
+    {
+      "class_name": "Bird Drop",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Localized opaque bird dropping obstructing active cells, inducing reverse-bias hot spots.",
+      "recommended_action": "Targeted spot wash with soft brush and demineralized water. Check for hot-spot reverse bias heating.",
+      "estimated_impact": "15% to 25% local power drop, accelerated local aging.",
+      "bounding_box_xyxy": [
+        0.7,
+        17.4,
+        371.3,
+        200.8
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Localized opaque bird dropping obstructing active cells, inducing reverse-bias hot spots.",
+        "recommended_action": "Targeted spot wash with soft brush and demineralized water. Check for hot-spot reverse bias heating.",
+        "sop": [
+          "1. Pre-soak soiled surface with demineralized water (resist chemicals).",
+          "2. Wipe gently with non-abrasive microfiber wand.",
+          "3. Inspect underlying cell for localized thermal discoloration.",
+          "4. Verify string power recovery after drying."
+        ],
+        "estimated_impact": "15% to 25% local power drop, accelerated local aging."
+      }
+    },
+    {
+      "class_name": "Bird Drop",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Localized opaque bird dropping obstructing active cells, inducing reverse-bias hot spots.",
+      "recommended_action": "Targeted spot wash with soft brush and demineralized water. Check for hot-spot reverse bias heating.",
+      "estimated_impact": "15% to 25% local power drop, accelerated local aging.",
+      "bounding_box_xyxy": [
+        10.5,
+        114.9,
+        586.5,
+        506.8
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Localized opaque bird dropping obstructing active cells, inducing reverse-bias hot spots.",
+        "recommended_action": "Targeted spot wash with soft brush and demineralized water. Check for hot-spot reverse bias heating.",
+        "sop": [
+          "1. Pre-soak soiled surface with demineralized water (resist chemicals).",
+          "2. Wipe gently with non-abrasive microfiber wand.",
+          "3. Inspect underlying cell for localized thermal discoloration.",
+          "4. Verify string power recovery after drying."
+        ],
+        "estimated_impact": "15% to 25% local power drop, accelerated local aging."
+      }
+    },
+    {
+      "class_name": "Bird Drop",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Localized opaque bird dropping obstructing active cells, inducing reverse-bias hot spots.",
+      "recommended_action": "Targeted spot wash with soft brush and demineralized water. Check for hot-spot reverse bias heating.",
+      "estimated_impact": "15% to 25% local power drop, accelerated local aging.",
+      "bounding_box_xyxy": [
+        0.0,
+        202.7,
+        196.2,
+        606.2
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Localized opaque bird dropping obstructing active cells, inducing reverse-bias hot spots.",
+        "recommended_action": "Targeted spot wash with soft brush and demineralized water. Check for hot-spot reverse bias heating.",
+        "sop": [
+          "1. Pre-soak soiled surface with demineralized water (resist chemicals).",
+          "2. Wipe gently with non-abrasive microfiber wand.",
+          "3. Inspect underlying cell for localized thermal discoloration.",
+          "4. Verify string power recovery after drying."
+        ],
+        "estimated_impact": "15% to 25% local power drop, accelerated local aging."
+      }
+    },
+    {
+      "class_name": "Bird Drop",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Localized opaque bird dropping obstructing active cells, inducing reverse-bias hot spots.",
+      "recommended_action": "Targeted spot wash with soft brush and demineralized water. Check for hot-spot reverse bias heating.",
+      "estimated_impact": "15% to 25% local power drop, accelerated local aging.",
+      "bounding_box_xyxy": [
+        6.3,
+        500.0,
+        305.9,
+        640.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Localized opaque bird dropping obstructing active cells, inducing reverse-bias hot spots.",
+        "recommended_action": "Targeted spot wash with soft brush and demineralized water. Check for hot-spot reverse bias heating.",
+        "sop": [
+          "1. Pre-soak soiled surface with demineralized water (resist chemicals).",
+          "2. Wipe gently with non-abrasive microfiber wand.",
+          "3. Inspect underlying cell for localized thermal discoloration.",
+          "4. Verify string power recovery after drying."
+        ],
+        "estimated_impact": "15% to 25% local power drop, accelerated local aging."
+      }
+    },
+    {
+      "class_name": "Bird Drop",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Localized opaque bird dropping obstructing active cells, inducing reverse-bias hot spots.",
+      "recommended_action": "Targeted spot wash with soft brush and demineralized water. Check for hot-spot reverse bias heating.",
+      "estimated_impact": "15% to 25% local power drop, accelerated local aging.",
+      "bounding_box_xyxy": [
+        244.7,
+        253.9,
+        640.0,
+        637.1
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Localized opaque bird dropping obstructing active cells, inducing reverse-bias hot spots.",
+        "recommended_action": "Targeted spot wash with soft brush and demineralized water. Check for hot-spot reverse bias heating.",
+        "sop": [
+          "1. Pre-soak soiled surface with demineralized water (resist chemicals).",
+          "2. Wipe gently with non-abrasive microfiber wand.",
+          "3. Inspect underlying cell for localized thermal discoloration.",
+          "4. Verify string power recovery after drying."
+        ],
+        "estimated_impact": "15% to 25% local power drop, accelerated local aging."
+      }
+    }
+  ]
+}

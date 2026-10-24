@@ -1,0 +1,260 @@
+{
+  "image_file": "Dusty_120_jpg.rf.0afaf6501138ce03f68acf8e3cc85a73.jpg",
+  "total_defects": 9,
+  "total_defects_found": 9,
+  "defect_types": {
+    "Dusty": 9
+  },
+  "summary": {
+    "total_defects": 9,
+    "total_defects_found": 9,
+    "defect_types": {
+      "Dusty": 9
+    }
+  },
+  "detections": [
+    {
+      "class_name": "Dusty",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+      "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+      "estimated_impact": "10% to 35% reduction in total energy generation.",
+      "bounding_box_xyxy": [
+        152.2,
+        270.9,
+        640.0,
+        525.1
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+        "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+        "sop": [
+          "1. Check string performance ratio vs clean reference pyranometer.",
+          "2. Schedule cleaning during low solar irradiance hours (dawn/dusk).",
+          "3. Deploy automated robotic brush system or low-pressure demineralized spray.",
+          "4. Confirm baseline power yield restoration in SCADA log."
+        ],
+        "estimated_impact": "10% to 35% reduction in total energy generation."
+      }
+    },
+    {
+      "class_name": "Dusty",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+      "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+      "estimated_impact": "10% to 35% reduction in total energy generation.",
+      "bounding_box_xyxy": [
+        14.4,
+        178.4,
+        523.3,
+        291.8
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+        "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+        "sop": [
+          "1. Check string performance ratio vs clean reference pyranometer.",
+          "2. Schedule cleaning during low solar irradiance hours (dawn/dusk).",
+          "3. Deploy automated robotic brush system or low-pressure demineralized spray.",
+          "4. Confirm baseline power yield restoration in SCADA log."
+        ],
+        "estimated_impact": "10% to 35% reduction in total energy generation."
+      }
+    },
+    {
+      "class_name": "Dusty",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+      "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+      "estimated_impact": "10% to 35% reduction in total energy generation.",
+      "bounding_box_xyxy": [
+        2.2,
+        115.9,
+        365.6,
+        194.3
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+        "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+        "sop": [
+          "1. Check string performance ratio vs clean reference pyranometer.",
+          "2. Schedule cleaning during low solar irradiance hours (dawn/dusk).",
+          "3. Deploy automated robotic brush system or low-pressure demineralized spray.",
+          "4. Confirm baseline power yield restoration in SCADA log."
+        ],
+        "estimated_impact": "10% to 35% reduction in total energy generation."
+      }
+    },
+    {
+      "class_name": "Dusty",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+      "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+      "estimated_impact": "10% to 35% reduction in total energy generation.",
+      "bounding_box_xyxy": [
+        533.3,
+        261.8,
+        640.0,
+        324.3
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+        "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+        "sop": [
+          "1. Check string performance ratio vs clean reference pyranometer.",
+          "2. Schedule cleaning during low solar irradiance hours (dawn/dusk).",
+          "3. Deploy automated robotic brush system or low-pressure demineralized spray.",
+          "4. Confirm baseline power yield restoration in SCADA log."
+        ],
+        "estimated_impact": "10% to 35% reduction in total energy generation."
+      }
+    },
+    {
+      "class_name": "Dusty",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+      "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+      "estimated_impact": "10% to 35% reduction in total energy generation.",
+      "bounding_box_xyxy": [
+        375.6,
+        195.1,
+        640.0,
+        269.3
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+        "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+        "sop": [
+          "1. Check string performance ratio vs clean reference pyranometer.",
+          "2. Schedule cleaning during low solar irradiance hours (dawn/dusk).",
+          "3. Deploy automated robotic brush system or low-pressure demineralized spray.",
+          "4. Confirm baseline power yield restoration in SCADA log."
+        ],
+        "estimated_impact": "10% to 35% reduction in total energy generation."
+      }
+    },
+    {
+      "class_name": "Dusty",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+      "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+      "estimated_impact": "10% to 35% reduction in total energy generation.",
+      "bounding_box_xyxy": [
+        263.3,
+        143.4,
+        552.2,
+        199.3
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+        "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+        "sop": [
+          "1. Check string performance ratio vs clean reference pyranometer.",
+          "2. Schedule cleaning during low solar irradiance hours (dawn/dusk).",
+          "3. Deploy automated robotic brush system or low-pressure demineralized spray.",
+          "4. Confirm baseline power yield restoration in SCADA log."
+        ],
+        "estimated_impact": "10% to 35% reduction in total energy generation."
+      }
+    },
+    {
+      "class_name": "Dusty",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+      "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+      "estimated_impact": "10% to 35% reduction in total energy generation.",
+      "bounding_box_xyxy": [
+        0.0,
+        80.1,
+        258.9,
+        142.6
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+        "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+        "sop": [
+          "1. Check string performance ratio vs clean reference pyranometer.",
+          "2. Schedule cleaning during low solar irradiance hours (dawn/dusk).",
+          "3. Deploy automated robotic brush system or low-pressure demineralized spray.",
+          "4. Confirm baseline power yield restoration in SCADA log."
+        ],
+        "estimated_impact": "10% to 35% reduction in total energy generation."
+      }
+    },
+    {
+      "class_name": "Dusty",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+      "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+      "estimated_impact": "10% to 35% reduction in total energy generation.",
+      "bounding_box_xyxy": [
+        185.6,
+        105.9,
+        441.1,
+        157.6
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+        "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+        "sop": [
+          "1. Check string performance ratio vs clean reference pyranometer.",
+          "2. Schedule cleaning during low solar irradiance hours (dawn/dusk).",
+          "3. Deploy automated robotic brush system or low-pressure demineralized spray.",
+          "4. Confirm baseline power yield restoration in SCADA log."
+        ],
+        "estimated_impact": "10% to 35% reduction in total energy generation."
+      }
+    },
+    {
+      "class_name": "Dusty",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+      "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+      "estimated_impact": "10% to 35% reduction in total energy generation.",
+      "bounding_box_xyxy": [
+        123.3,
+        75.9,
+        356.7,
+        124.3
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+        "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+        "sop": [
+          "1. Check string performance ratio vs clean reference pyranometer.",
+          "2. Schedule cleaning during low solar irradiance hours (dawn/dusk).",
+          "3. Deploy automated robotic brush system or low-pressure demineralized spray.",
+          "4. Confirm baseline power yield restoration in SCADA log."
+        ],
+        "estimated_impact": "10% to 35% reduction in total energy generation."
+      }
+    }
+  ]
+}

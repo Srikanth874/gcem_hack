@@ -1,0 +1,915 @@
+{
+  "image_file": "Snow_13_jpg.rf.0438e2c90f795b30c284226ee8b7f188.jpg",
+  "total_defects": 23,
+  "total_defects_found": 34,
+  "defect_types": {
+    "Non Defective": 11,
+    "Snow": 23
+  },
+  "summary": {
+    "total_defects": 23,
+    "total_defects_found": 34,
+    "defect_types": {
+      "Non Defective": 11,
+      "Snow": 23
+    }
+  },
+  "detections": [
+    {
+      "class_name": "Non Defective",
+      "confidence": 0.94,
+      "severity": "NORMAL",
+      "priority": "P0 - Routine Monitoring",
+      "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+      "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+      "estimated_impact": "0% loss, operating at peak yield.",
+      "bounding_box_xyxy": [
+        247.5,
+        391.7,
+        603.7,
+        590.8
+      ],
+      "maintenance_info": {
+        "priority": "P0 - Routine Monitoring",
+        "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+        "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+        "sop": [
+          "1. Log visual inspection timestamp into SCADA maintenance history.",
+          "2. Confirm DC output is tracking pyranometer irradiance curve."
+        ],
+        "estimated_impact": "0% loss, operating at peak yield."
+      }
+    },
+    {
+      "class_name": "Non Defective",
+      "confidence": 0.94,
+      "severity": "NORMAL",
+      "priority": "P0 - Routine Monitoring",
+      "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+      "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+      "estimated_impact": "0% loss, operating at peak yield.",
+      "bounding_box_xyxy": [
+        321.6,
+        322.7,
+        590.9,
+        425.0
+      ],
+      "maintenance_info": {
+        "priority": "P0 - Routine Monitoring",
+        "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+        "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+        "sop": [
+          "1. Log visual inspection timestamp into SCADA maintenance history.",
+          "2. Confirm DC output is tracking pyranometer irradiance curve."
+        ],
+        "estimated_impact": "0% loss, operating at peak yield."
+      }
+    },
+    {
+      "class_name": "Non Defective",
+      "confidence": 0.94,
+      "severity": "NORMAL",
+      "priority": "P0 - Routine Monitoring",
+      "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+      "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+      "estimated_impact": "0% loss, operating at peak yield.",
+      "bounding_box_xyxy": [
+        371.2,
+        276.9,
+        584.5,
+        336.1
+      ],
+      "maintenance_info": {
+        "priority": "P0 - Routine Monitoring",
+        "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+        "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+        "sop": [
+          "1. Log visual inspection timestamp into SCADA maintenance history.",
+          "2. Confirm DC output is tracking pyranometer irradiance curve."
+        ],
+        "estimated_impact": "0% loss, operating at peak yield."
+      }
+    },
+    {
+      "class_name": "Non Defective",
+      "confidence": 0.94,
+      "severity": "NORMAL",
+      "priority": "P0 - Routine Monitoring",
+      "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+      "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+      "estimated_impact": "0% loss, operating at peak yield.",
+      "bounding_box_xyxy": [
+        397.6,
+        242.3,
+        582.2,
+        280.8
+      ],
+      "maintenance_info": {
+        "priority": "P0 - Routine Monitoring",
+        "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+        "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+        "sop": [
+          "1. Log visual inspection timestamp into SCADA maintenance history.",
+          "2. Confirm DC output is tracking pyranometer irradiance curve."
+        ],
+        "estimated_impact": "0% loss, operating at peak yield."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        257.5,
+        360.0,
+        312.5,
+        381.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        190.0,
+        352.0,
+        257.0,
+        373.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        158.5,
+        345.5,
+        187.5,
+        364.5
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        86.5,
+        410.0,
+        123.5,
+        439.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        121.0,
+        423.0,
+        149.0,
+        448.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        157.0,
+        435.0,
+        180.0,
+        460.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        176.0,
+        439.0,
+        202.0,
+        465.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        212.0,
+        457.0,
+        236.0,
+        478.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Non Defective",
+      "confidence": 0.94,
+      "severity": "NORMAL",
+      "priority": "P0 - Routine Monitoring",
+      "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+      "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+      "estimated_impact": "0% loss, operating at peak yield.",
+      "bounding_box_xyxy": [
+        258.2,
+        240.9,
+        419.3,
+        275.2
+      ],
+      "maintenance_info": {
+        "priority": "P0 - Routine Monitoring",
+        "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+        "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+        "sop": [
+          "1. Log visual inspection timestamp into SCADA maintenance history.",
+          "2. Confirm DC output is tracking pyranometer irradiance curve."
+        ],
+        "estimated_impact": "0% loss, operating at peak yield."
+      }
+    },
+    {
+      "class_name": "Non Defective",
+      "confidence": 0.94,
+      "severity": "NORMAL",
+      "priority": "P0 - Routine Monitoring",
+      "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+      "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+      "estimated_impact": "0% loss, operating at peak yield.",
+      "bounding_box_xyxy": [
+        153.7,
+        241.3,
+        293.0,
+        271.1
+      ],
+      "maintenance_info": {
+        "priority": "P0 - Routine Monitoring",
+        "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+        "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+        "sop": [
+          "1. Log visual inspection timestamp into SCADA maintenance history.",
+          "2. Confirm DC output is tracking pyranometer irradiance curve."
+        ],
+        "estimated_impact": "0% loss, operating at peak yield."
+      }
+    },
+    {
+      "class_name": "Non Defective",
+      "confidence": 0.94,
+      "severity": "NORMAL",
+      "priority": "P0 - Routine Monitoring",
+      "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+      "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+      "estimated_impact": "0% loss, operating at peak yield.",
+      "bounding_box_xyxy": [
+        0.0,
+        325.6,
+        36.2,
+        355.3
+      ],
+      "maintenance_info": {
+        "priority": "P0 - Routine Monitoring",
+        "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+        "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+        "sop": [
+          "1. Log visual inspection timestamp into SCADA maintenance history.",
+          "2. Confirm DC output is tracking pyranometer irradiance curve."
+        ],
+        "estimated_impact": "0% loss, operating at peak yield."
+      }
+    },
+    {
+      "class_name": "Non Defective",
+      "confidence": 0.94,
+      "severity": "NORMAL",
+      "priority": "P0 - Routine Monitoring",
+      "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+      "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+      "estimated_impact": "0% loss, operating at peak yield.",
+      "bounding_box_xyxy": [
+        154.3,
+        240.7,
+        293.4,
+        270.4
+      ],
+      "maintenance_info": {
+        "priority": "P0 - Routine Monitoring",
+        "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+        "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+        "sop": [
+          "1. Log visual inspection timestamp into SCADA maintenance history.",
+          "2. Confirm DC output is tracking pyranometer irradiance curve."
+        ],
+        "estimated_impact": "0% loss, operating at peak yield."
+      }
+    },
+    {
+      "class_name": "Non Defective",
+      "confidence": 0.94,
+      "severity": "NORMAL",
+      "priority": "P0 - Routine Monitoring",
+      "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+      "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+      "estimated_impact": "0% loss, operating at peak yield.",
+      "bounding_box_xyxy": [
+        81.3,
+        239.8,
+        199.1,
+        265.4
+      ],
+      "maintenance_info": {
+        "priority": "P0 - Routine Monitoring",
+        "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+        "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+        "sop": [
+          "1. Log visual inspection timestamp into SCADA maintenance history.",
+          "2. Confirm DC output is tracking pyranometer irradiance curve."
+        ],
+        "estimated_impact": "0% loss, operating at peak yield."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        112.5,
+        333.0,
+        155.5,
+        351.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        89.0,
+        319.0,
+        125.0,
+        343.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        67.0,
+        314.0,
+        89.0,
+        341.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        51.0,
+        323.5,
+        65.0,
+        336.5
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        25.0,
+        288.0,
+        75.0,
+        308.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        0,
+        291.0,
+        21.0,
+        308.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        0,
+        310.0,
+        60.0,
+        331.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        0,
+        269.0,
+        34.0,
+        287.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        34.5,
+        283.0,
+        105.5,
+        299.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        150.0,
+        286.0,
+        209.0,
+        302.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        114.0,
+        283.5,
+        151.0,
+        298.5
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        35.0,
+        251.0,
+        73.0,
+        261.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        1.5,
+        396.0,
+        48.5,
+        417.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        222.0,
+        291.0,
+        286.0,
+        309.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        285.0,
+        291.0,
+        351.0,
+        319.0
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    },
+    {
+      "class_name": "Non Defective",
+      "confidence": 0.94,
+      "severity": "NORMAL",
+      "priority": "P0 - Routine Monitoring",
+      "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+      "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+      "estimated_impact": "0% loss, operating at peak yield.",
+      "bounding_box_xyxy": [
+        444.0,
+        226.2,
+        523.3,
+        241.1
+      ],
+      "maintenance_info": {
+        "priority": "P0 - Routine Monitoring",
+        "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+        "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+        "sop": [
+          "1. Log visual inspection timestamp into SCADA maintenance history.",
+          "2. Confirm DC output is tracking pyranometer irradiance curve."
+        ],
+        "estimated_impact": "0% loss, operating at peak yield."
+      }
+    },
+    {
+      "class_name": "Non Defective",
+      "confidence": 0.94,
+      "severity": "NORMAL",
+      "priority": "P0 - Routine Monitoring",
+      "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+      "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+      "estimated_impact": "0% loss, operating at peak yield.",
+      "bounding_box_xyxy": [
+        378.7,
+        226.7,
+        455.0,
+        242.6
+      ],
+      "maintenance_info": {
+        "priority": "P0 - Routine Monitoring",
+        "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+        "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+        "sop": [
+          "1. Log visual inspection timestamp into SCADA maintenance history.",
+          "2. Confirm DC output is tracking pyranometer irradiance curve."
+        ],
+        "estimated_impact": "0% loss, operating at peak yield."
+      }
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --night: #0a1020;
+  --night-2: #0e1730;
+  --surface: #121b30;
+  --surface-2: #17223d;
+  --line: #243153;
+  --text: #e6ebf7;
+  --muted: #8d9ac0;
+  --sun: #f5b335;
+  --sky: #5bc0eb;
+  --mint: #4ade9c;
+  --coral: #ff6b6b;
+  --violet: #b79cff;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --display: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif;
+  --body: 'Instrument Sans', 'Segoe UI', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--night);
+  color: var(--text);
+  font-family: var(--body);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.num {
+  font-family: var(--display);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.display {
+  font-family: var(--display);
+  letter-spacing: -0.01em;
+}
+
+/* ── Surfaces ── */
+.surface {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.surface-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px 0;
+}
+
+.surface-title {
+  font-family: var(--display);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.surface-meta {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.well {
+  background: var(--night-2);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+/* ── Buttons & chips ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: transform 0.2s var(--ease), background 0.2s, border-color 0.2s, opacity 0.2s;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: progress;
+}
+
+.btn-primary {
+  background: var(--sun);
+  color: #231a04;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #ffc24f;
+}
+
+.btn-danger {
+  background: var(--coral);
+  color: #2a0707;
+}
+
+.btn-danger:hover {
+  background: #ff8484;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--line);
+}
+
+.btn-ghost:hover {
+  border-color: var(--sky);
+  background: rgba(91, 192, 235, 0.08);
+}
+
+.chip {
+  flex: none;
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid var(--line);
+  cursor: pointer;
+  transition: all 0.25s var(--ease);
+  white-space: nowrap;
+}
+
+.chip:hover {
+  color: var(--text);
+  border-color: var(--muted);
+}
+
+.chip[aria-pressed='true'] {
+  color: #231a04;
+  background: var(--sun);
+  border-color: var(--sun);
+}
+
+.chip[aria-pressed='true'].chip-fault {
+  color: #2a0707;
+  background: var(--coral);
+  border-color: var(--coral);
+}
+
+:where(button, select, a, input):focus-visible {
+  outline: 2px solid var(--sky);
+  outline-offset: 2px;
+}
+
+.select {
+  background: var(--night-2);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 9px 12px;
+  font-size: 13px;
+  font-family: var(--body);
+}
+
+/* ── Pills ── */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.pill-ok {
+  background: rgba(74, 222, 156, 0.13);
+  color: var(--mint);
+}
+
+.pill-warn {
+  background: rgba(245, 179, 53, 0.14);
+  color: var(--sun);
+}
+
+.pill-bad {
+  background: rgba(255, 107, 107, 0.15);
+  color: var(--coral);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+  display: inline-block;
+}
+
+.dot-live {
+  animation: breathe 2.4s ease-in-out infinite;
+}
+
+/* ── Hero: the array field view ── */
+.scene {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background:
+    radial-gradient(120% 70% at 50% 108%, rgba(245, 179, 53, 0.22), transparent 60%),
+    linear-gradient(180deg, #0c1530 0%, #14224a 62%, #1b2c58 100%);
+}
+
+.sun {
+  position: absolute;
+  top: 18px;
+  right: 6%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 38%, #ffe29a, var(--sun) 62%, #e58f1b);
+  transition: box-shadow 1.2s var(--ease), transform 1.2s var(--ease);
+}
+
+.stars {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 12% 22%, rgba(255, 255, 255, 0.55), transparent),
+    radial-gradient(1px 1px at 34% 12%, rgba(255, 255, 255, 0.4), transparent),
+    radial-gradient(1px 1px at 58% 30%, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(1px 1px at 76% 14%, rgba(255, 255, 255, 0.35), transparent),
+    radial-gradient(1px 1px at 90% 38%, rgba(255, 255, 255, 0.45), transparent);
+  pointer-events: none;
+}
+
+.lane {
+  position: relative;
+  height: 96px;
+}
+
+.drone {
+  position: absolute;
+  top: 6px;
+  left: calc(var(--x) * 1%);
+  width: 76px;
+  transform: translateX(-50%);
+  transition: left 1.15s var(--ease);
+  z-index: 3;
+}
+
+.drone-body {
+  animation: hover-bob 3.4s ease-in-out infinite;
+}
+
+.rotor {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: spin 0.18s linear infinite;
+}
+
+.beam {
+  position: absolute;
+  top: 58px;
+  left: 50%;
+  width: 150px;
+  height: 120px;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, rgba(91, 192, 235, 0.55), rgba(91, 192, 235, 0));
+  clip-path: polygon(46% 0, 54% 0, 100% 100%, 0 100%);
+  transform-origin: top;
+  animation: beam-sweep 1.4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.tile {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+}
+
+.tile-face {
+  --glow: var(--mint);
+  height: 78px;
+  border-radius: 8px;
+  border: 1px solid color-mix(in oklab, var(--glow) 60%, transparent);
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.09) 1px, transparent 1px) 0 0 / 25% 100%,
+    linear-gradient(0deg, rgba(255, 255, 255, 0.09) 1px, transparent 1px) 0 0 / 100% 33.34%,
+    linear-gradient(160deg, color-mix(in oklab, var(--glow) calc(var(--power, 1) * 46%), #0d1730), #0d1730 85%);
+  transform: perspective(520px) rotateX(44deg);
+  transform-origin: 50% 100%;
+  box-shadow: 0 22px 30px -14px color-mix(in oklab, var(--glow) 60%, transparent);
+  transition: transform 0.45s var(--ease), box-shadow 0.45s var(--ease);
+}
+
+.tile:hover .tile-face {
+  transform: perspective(520px) rotateX(44deg) translateY(-4px);
+}
+
+.tile[aria-pressed='true'] .tile-face {
+  transform: perspective(520px) rotateX(44deg) translateY(-8px);
+  box-shadow: 0 0 0 2px var(--sun), 0 26px 34px -14px color-mix(in oklab, var(--glow) 70%, transparent);
+}
+
+.tile-fault .tile-face {
+  --glow: var(--coral);
+  animation: fault-pulse 1.6s ease-in-out infinite;
+}
+
+/* The one orchestrated entrance: the array assembles, the drone arrives. */
+.rise {
+  animation: rise 0.9s var(--ease) both;
+  animation-delay: calc(var(--i, 0) * 90ms + 150ms);
+}
+
+.arrive {
+  animation: arrive 1.4s var(--ease) 0.2s both;
+}
+
+/* ── Table ── */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.table th {
+  text-align: left;
+  font-weight: 500;
+  color: var(--muted);
+  padding: 10px 18px;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+.table td {
+  padding: 11px 18px;
+  border-bottom: 1px solid rgba(36, 49, 83, 0.55);
+  white-space: nowrap;
+}
+
+.table tbody tr:hover {
+  background: rgba(91, 192, 235, 0.05);
+}
+
+/* ── Toast ── */
+.toast {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 50;
+  animation: toast-in 0.5s var(--ease) both;
+}
+
+/* ── Scrollbars ── */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #33446f;
+}
+
+/* ── Keyframes ── */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hover-bob {
+
+  0%,
+  100% {
+    transform: translateY(0) rotate(-1.5deg);
+  }
+
+  50% {
+    transform: translateY(-7px) rotate(1.5deg);
+  }
+}
+
+@keyframes breathe {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.35;
+  }
+}
+
+@keyframes fault-pulse {
+
+  0%,
+  100% {
+    box-shadow: 0 22px 30px -14px rgba(255, 107, 107, 0.55);
+  }
+
+  50% {
+    box-shadow: 0 22px 44px -8px rgba(255, 107, 107, 0.95);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(26px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes arrive {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -60px) scale(0.8);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(1);
+  }
+}
+
+@keyframes beam-sweep {
+
+  0%,
+  100% {
+    transform: translateX(-50%) rotate(-9deg);
+  }
+
+  50% {
+    transform: translateX(-50%) rotate(9deg);
+  }
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

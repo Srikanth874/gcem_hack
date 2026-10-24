@@ -1,0 +1,42 @@
+{
+  "image_file": "Clean_100_jpg.rf.8896a0427767632fbc47d9dca14be84f.jpg",
+  "total_defects": 0,
+  "total_defects_found": 1,
+  "defect_types": {
+    "Non Defective": 1
+  },
+  "summary": {
+    "total_defects": 0,
+    "total_defects_found": 1,
+    "defect_types": {
+      "Non Defective": 1
+    }
+  },
+  "detections": [
+    {
+      "class_name": "Non Defective",
+      "confidence": 0.94,
+      "severity": "NORMAL",
+      "priority": "P0 - Routine Monitoring",
+      "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+      "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+      "estimated_impact": "0% loss, operating at peak yield.",
+      "bounding_box_xyxy": [
+        0,
+        58.5,
+        576.0,
+        637.5
+      ],
+      "maintenance_info": {
+        "priority": "P0 - Routine Monitoring",
+        "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+        "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+        "sop": [
+          "1. Log visual inspection timestamp into SCADA maintenance history.",
+          "2. Confirm DC output is tracking pyranometer irradiance curve."
+        ],
+        "estimated_impact": "0% loss, operating at peak yield."
+      }
+    }
+  ]
+}

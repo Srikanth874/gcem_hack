@@ -1,0 +1,44 @@
+{
+  "image_file": "Physical_Damge_107_jpg.rf.b2e2266a2a06d597460f47e040c3099a.jpg",
+  "total_defects": 1,
+  "total_defects_found": 1,
+  "defect_types": {
+    "Physical Damage": 1
+  },
+  "summary": {
+    "total_defects": 1,
+    "total_defects_found": 1,
+    "defect_types": {
+      "Physical Damage": 1
+    }
+  },
+  "detections": [
+    {
+      "class_name": "Physical Damage",
+      "confidence": 0.94,
+      "severity": "CRITICAL",
+      "priority": "P1 - Urgent Intervention",
+      "diagnosis": "Cracked front tempered glass, frame distortion, or structural cell fracture.",
+      "recommended_action": "Schedule panel replacement. Seal damaged glass if rain is forecast to prevent water ingress and ground faults.",
+      "estimated_impact": "Moisture penetration, ground fault circuit trips, permanent cell destruction.",
+      "bounding_box_xyxy": [
+        30.0,
+        59.5,
+        335.0,
+        526.5
+      ],
+      "maintenance_info": {
+        "priority": "P1 - Urgent Intervention",
+        "diagnosis": "Cracked front tempered glass, frame distortion, or structural cell fracture.",
+        "recommended_action": "Schedule panel replacement. Seal damaged glass if rain is forecast to prevent water ingress and ground faults.",
+        "sop": [
+          "1. Verify inverter isolation and ground-fault protection status.",
+          "2. Apply weatherproof transparent silicone patch if moisture ingress is imminent.",
+          "3. Disconnect MC4 connectors using rated disconnect tool.",
+          "4. Replace damaged module with matched electrical characteristics panel."
+        ],
+        "estimated_impact": "Moisture penetration, ground fault circuit trips, permanent cell destruction."
+      }
+    }
+  ]
+}

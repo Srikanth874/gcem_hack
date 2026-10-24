@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Dataset (large binary files — re-download with the script)
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Output / logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

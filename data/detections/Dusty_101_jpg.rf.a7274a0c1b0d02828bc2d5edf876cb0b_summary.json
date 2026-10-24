@@ -1,0 +1,71 @@
+{
+  "image_file": "Dusty_101_jpg.rf.a7274a0c1b0d02828bc2d5edf876cb0b.jpg",
+  "total_defects": 1,
+  "total_defects_found": 2,
+  "defect_types": {
+    "Non Defective": 1,
+    "Dusty": 1
+  },
+  "summary": {
+    "total_defects": 1,
+    "total_defects_found": 2,
+    "defect_types": {
+      "Non Defective": 1,
+      "Dusty": 1
+    }
+  },
+  "detections": [
+    {
+      "class_name": "Non Defective",
+      "confidence": 0.94,
+      "severity": "NORMAL",
+      "priority": "P0 - Routine Monitoring",
+      "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+      "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+      "estimated_impact": "0% loss, operating at peak yield.",
+      "bounding_box_xyxy": [
+        0.0,
+        171.2,
+        638.3,
+        471.9
+      ],
+      "maintenance_info": {
+        "priority": "P0 - Routine Monitoring",
+        "diagnosis": "Panel surface is clean, cell structure intact, normal operating condition.",
+        "recommended_action": "No intervention required. Keep on standard quarterly inspection schedule.",
+        "sop": [
+          "1. Log visual inspection timestamp into SCADA maintenance history.",
+          "2. Confirm DC output is tracking pyranometer irradiance curve."
+        ],
+        "estimated_impact": "0% loss, operating at peak yield."
+      }
+    },
+    {
+      "class_name": "Dusty",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+      "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+      "estimated_impact": "10% to 35% reduction in total energy generation.",
+      "bounding_box_xyxy": [
+        111.1,
+        270.0,
+        640.0,
+        459.2
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Uniform particulate and dust coating reducing photon absorption.",
+        "recommended_action": "Trigger automated sprinkler wash or dispatch robot cleaning crew during dawn/dusk hours.",
+        "sop": [
+          "1. Check string performance ratio vs clean reference pyranometer.",
+          "2. Schedule cleaning during low solar irradiance hours (dawn/dusk).",
+          "3. Deploy automated robotic brush system or low-pressure demineralized spray.",
+          "4. Confirm baseline power yield restoration in SCADA log."
+        ],
+        "estimated_impact": "10% to 35% reduction in total energy generation."
+      }
+    }
+  ]
+}

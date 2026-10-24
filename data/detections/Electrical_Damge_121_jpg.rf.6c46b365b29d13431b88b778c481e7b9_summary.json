@@ -1,0 +1,98 @@
+{
+  "image_file": "Electrical_Damge_121_jpg.rf.6c46b365b29d13431b88b778c481e7b9.jpg",
+  "total_defects": 3,
+  "total_defects_found": 3,
+  "defect_types": {
+    "Electrical Damage": 3
+  },
+  "summary": {
+    "total_defects": 3,
+    "total_defects_found": 3,
+    "defect_types": {
+      "Electrical Damage": 3
+    }
+  },
+  "detections": [
+    {
+      "class_name": "Electrical Damage",
+      "confidence": 0.94,
+      "severity": "CRITICAL",
+      "priority": "P1 - Urgent Intervention",
+      "diagnosis": "Potential bypass diode failure, internal short-circuit, or localized arc risk.",
+      "recommended_action": "Immediately isolate this string at DC combiner box. Dispatch high-voltage certified technician with thermal camera.",
+      "estimated_impact": "Up to 100% string drop, risk of thermal runaway or fire.",
+      "bounding_box_xyxy": [
+        306.5,
+        84.0,
+        355.5,
+        177.0
+      ],
+      "maintenance_info": {
+        "priority": "P1 - Urgent Intervention",
+        "diagnosis": "Potential bypass diode failure, internal short-circuit, or localized arc risk.",
+        "recommended_action": "Immediately isolate this string at DC combiner box. Dispatch high-voltage certified technician with thermal camera.",
+        "sop": [
+          "1. Lock-out / Tag-out string inverter DC disconnect.",
+          "2. Inspect module junction box and verify diode forward voltage drop.",
+          "3. Conduct thermal imaging scan under active irradiance.",
+          "4. Measure open-circuit voltage (Voc) and short-circuit current (Isc)."
+        ],
+        "estimated_impact": "Up to 100% string drop, risk of thermal runaway or fire."
+      }
+    },
+    {
+      "class_name": "Electrical Damage",
+      "confidence": 0.94,
+      "severity": "CRITICAL",
+      "priority": "P1 - Urgent Intervention",
+      "diagnosis": "Potential bypass diode failure, internal short-circuit, or localized arc risk.",
+      "recommended_action": "Immediately isolate this string at DC combiner box. Dispatch high-voltage certified technician with thermal camera.",
+      "estimated_impact": "Up to 100% string drop, risk of thermal runaway or fire.",
+      "bounding_box_xyxy": [
+        296.0,
+        424.0,
+        363.0,
+        523.0
+      ],
+      "maintenance_info": {
+        "priority": "P1 - Urgent Intervention",
+        "diagnosis": "Potential bypass diode failure, internal short-circuit, or localized arc risk.",
+        "recommended_action": "Immediately isolate this string at DC combiner box. Dispatch high-voltage certified technician with thermal camera.",
+        "sop": [
+          "1. Lock-out / Tag-out string inverter DC disconnect.",
+          "2. Inspect module junction box and verify diode forward voltage drop.",
+          "3. Conduct thermal imaging scan under active irradiance.",
+          "4. Measure open-circuit voltage (Voc) and short-circuit current (Isc)."
+        ],
+        "estimated_impact": "Up to 100% string drop, risk of thermal runaway or fire."
+      }
+    },
+    {
+      "class_name": "Electrical Damage",
+      "confidence": 0.94,
+      "severity": "CRITICAL",
+      "priority": "P1 - Urgent Intervention",
+      "diagnosis": "Potential bypass diode failure, internal short-circuit, or localized arc risk.",
+      "recommended_action": "Immediately isolate this string at DC combiner box. Dispatch high-voltage certified technician with thermal camera.",
+      "estimated_impact": "Up to 100% string drop, risk of thermal runaway or fire.",
+      "bounding_box_xyxy": [
+        1.0,
+        80.5,
+        25.0,
+        287.5
+      ],
+      "maintenance_info": {
+        "priority": "P1 - Urgent Intervention",
+        "diagnosis": "Potential bypass diode failure, internal short-circuit, or localized arc risk.",
+        "recommended_action": "Immediately isolate this string at DC combiner box. Dispatch high-voltage certified technician with thermal camera.",
+        "sop": [
+          "1. Lock-out / Tag-out string inverter DC disconnect.",
+          "2. Inspect module junction box and verify diode forward voltage drop.",
+          "3. Conduct thermal imaging scan under active irradiance.",
+          "4. Measure open-circuit voltage (Voc) and short-circuit current (Isc)."
+        ],
+        "estimated_impact": "Up to 100% string drop, risk of thermal runaway or fire."
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "image_file": "Snow_11_jpg.rf.d2594a190eec0b7020e99f6db676b838.jpg",
+  "total_defects": 1,
+  "total_defects_found": 1,
+  "defect_types": {
+    "Snow": 1
+  },
+  "summary": {
+    "total_defects": 1,
+    "total_defects_found": 1,
+    "defect_types": {
+      "Snow": 1
+    }
+  },
+  "detections": [
+    {
+      "class_name": "Snow",
+      "confidence": 0.94,
+      "severity": "WARNING",
+      "priority": "P2 - Scheduled Care",
+      "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+      "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+      "estimated_impact": "80% to 100% output blockage until cleared.",
+      "bounding_box_xyxy": [
+        0,
+        153.5,
+        640,
+        540.5
+      ],
+      "maintenance_info": {
+        "priority": "P2 - Scheduled Care",
+        "diagnosis": "Heavy snow layer blocking incident solar irradiance across module array.",
+        "recommended_action": "Allow solar thermal melting if ambient temp > 2\u00b0C, or deploy soft-edged snow rake. Never use chemical de-icers.",
+        "sop": [
+          "1. Monitor ambient and cell temperature forecasts.",
+          "2. Clear bottom edge framing to allow natural snow shedding.",
+          "3. Utilize soft-edged telescopic silicone snow rake if necessary.",
+          "4. Strictly avoid salt, hot water, or sharp metal scrapers."
+        ],
+        "estimated_impact": "80% to 100% output blockage until cleared."
+      }
+    }
+  ]
+}
